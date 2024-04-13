@@ -15,7 +15,7 @@ export function Counter() {
         <button
           aria-label="Increment value"
           onClick={() => dispatch(increment())}
-          className="w-100 bg-black text-white p-2 rounded-lg hover:text-black hover:bg-white border-2 border-black transition-all ease-in-out duration-300 font-medium"
+          className="w-100 bg-black text-white p-2 rounded-lg hover:text-black hover:bg-white border-2 border-black transition-all ease-in-out duration-300 font-medium flex gap-2"
         >
           Increment
         </button>
